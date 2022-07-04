@@ -109,6 +109,7 @@ section h2 {
 }
 .items .i_list li .on {
     background-image: url(../img/i_wish_black.svg);
+    z-index: 30;
 }
 
 .items .i_list li .name {
