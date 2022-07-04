@@ -1,0 +1,253 @@
+#item {
+    position: relative;
+}
+#item .img_box {
+    width: 60%;
+    float: left;
+}
+#item .img_box img {
+    margin-top: 60px;
+    padding-right: 100px;
+}
+#item .info {
+    padding-top: 60px;
+    letter-spacing: -1px;
+}
+#item .info h2 {
+    font-size: 46px;
+    margin-bottom: 20px;
+}
+#item .info .route {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#item .info .btn_wish {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    text-indent: -9999px;
+    background-image: url(../img/i_wish.svg);
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    z-index: 30;
+}
+#item .info .on {
+    background-image: url(../img/I_wish_black.svg);
+}
+
+#item .info .price {
+    font-family: 'Graphik 700', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0px;
+}
+#item .info .shipping {
+    padding: 16px 0;
+    font-weight: 500;
+}
+#item .info .description {
+    width: 448px;
+    display: inline-block;
+    line-height: 1.5;
+}
+
+#item .info .option {
+    margin-top: 16px;
+}
+#item .info .option li {
+    margin-bottom: 22px;
+}
+#item .info .option li label {
+    width: 70px;
+    display: inline-block;
+}
+#item .info .option li select {
+    width: 160px;
+    height: 28px;
+}
+#item .info .option li span.facet {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    border-radius: 50px;
+    background-color: #ECE9E5;
+    vertical-align: middle;
+}
+
+.flexbox {
+    display: flex;
+}
+.my_input {
+    position: relative;
+  }
+.my_input input,
+.my_input button {
+    width: 34px;
+    height: 28px;
+    text-align: center;
+    border: 0.5px solid #707070;
+  }
+ .my_input input {
+    position: absolute;
+    margin-left: 34px;
+    display: inline-block;
+  }
+.my_input .up {
+    margin-left: 30px;
+}
+
+
+#item .info .service button {
+    width: 258px;
+    display: inline-block;
+    font-family: 'Graphik', sans-serif;
+    letter-spacing: 0px;
+    font-size: 25px;
+    text-align: center;
+    padding: 21px;
+    margin-right: 5px;
+    margin-bottom: 90px;
+}
+#item .info .service #addBtn {   
+    border: 1px solid #707070;
+    transition: 0.3s;
+}
+#item .info .service #orderBtn {
+    background-color: #333;
+    color: #fff;
+    transition: 0.3s;
+}
+#item .info .service #addBtn:hover {
+    background-color: #264A46;
+    color: #fff;
+}
+#item .info .service #orderBtn:hover {
+    background-color: #E88296;
+}
+
+#detail {
+    clear: both;
+    padding: 90px 100px;
+    border-top: 1px solid #707070;
+    display: flex;
+}
+#detail h3 {
+    font-family: 'Graphik 700', sans-serif;
+    font-weight: 700;
+}
+#detail .pr_info {
+    margin-right: 85px;
+    width: 20%;
+}
+
+#detail .pr_info > div {
+    margin: 50px 0;
+    letter-spacing: -1px;
+}
+#detail .pr_info .title {
+    font-weight: 500;
+}
+#detail .pr_info .content {
+    margin-top: 8px;
+    line-height: 2;
+}
+
+
+#detail .pr_img {
+    position: relative;
+    width: 30%;
+}
+#detail .pr_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#detail .pr_img .bg {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#detail .pr_img .slogan {
+    position: absolute;
+    top: 48%;
+    left: 0;
+    color: #fff;
+    display: block;
+    margin-left: 20px;
+    letter-spacing: -1px;
+}
+
+#detail .pr_review {
+    margin-left: 60px;
+    width: 50%;
+    font-family: 'Graphik 700', sans-serif;
+}
+#detail .pr_review .customer {
+    display: flex;
+    padding-top: 16px;
+
+}
+#detail .pr_review .customer img {
+    margin-right: 10px;
+}
+#detail .pr_review .customer p {
+    margin-right: 44px;
+    margin-top: 4px;
+}
+#detail .pr_review .comments {
+    padding-top: 34px;
+}
+#detail .pr_review .comments li {
+    padding-bottom: 30px;
+}
+
+#detail .pr_review .rating p {
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+#detail .pr_review .rating .stars {
+    background-image: url(../img/i_star_black.svg);
+    width: 108px;
+    height: 20px;
+    margin-bottom: 8px;
+}
+#detail .pr_review .rating span {
+    line-height: 1.5;
+}
+#detail .pr_review .btn_more {
+    width: 188px;
+    height: 60px;
+    border: 1px solid #333;
+    line-height: 60px;
+    transition: 0.3s;
+}
+#detail .pr_review .btn_more:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+#recommend {
+    border-top: 1px solid #707070;
+    padding: 90px 100px;
+}
+#recommend h3 {
+    text-align: center;
+    font-family: 'Graphik 700', sans-serif;
+    font-weight: 700;
+}
+#recommend ul {
+    display: flex;
+    margin-top: 70px;
+}
+#recommend ul li img {
+    transition: 0.3s;
+}
+#recommend ul li:hover img {
+    opacity: 0.7;
+}

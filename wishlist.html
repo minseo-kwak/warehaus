@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WAREHAUS - Wishlist</title>
+    <!-- Favicons -->
+    <link href="img/favicon.ico" rel="icon">
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+    
+    <link rel="stylesheet" href="css/my-reset.css">
+    <link rel="stylesheet" href="css/common.css">
+
+    <link rel="stylesheet" href="css/list.css">
+</head>
+<body>
+    <header>
+        <div id="box_header">
+            <h1><a href="index.html">WAREHAUS</a></h1>
+            <h2>Atmosphere, Rosebush, Your Own Garden.</h2>
+            <nav class="direct_nav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="wishlist.html">WISH LIST</a></li>
+                    <li><a href="cart.html">CART</a></li>
+                    <li class="acc"><span class="toggleBtn">ACCOUNT</span></li>
+                </ul>
+                <form action="#">
+                    <label for="search_word" class="hide">SEARCH</label>
+                    <input type="text" id="search_word" placeholder="SEARCH" class="search">
+                    <button type="button" class="btn_search">SEARCH</button>
+                </form>
+            </nav>
+        </div>
+
+        <div id="navbar">
+            <h1><a href="index.html">WAREHAUS</a></h1>
+            <form action="#">
+                <label for="search_word2" class="hide">SEARCH</label>
+                <input type="text" id="search_word2" placeholder="SEARCH" class="search">
+                <button type="button" class="btn_search">SEARCH</button>
+            </form>
+            <ul class="direct">
+                <li><a href="wishlist.html"><span class="hide">Wishlist</span></a></li>
+                <li><a href="cart.html"><span class="hide">Cart</span></a></li>
+                <li><a class="nav_acc"><span class="hide">Account</span></a></li>
+            </ul>
+        </div>
+        
+        <nav class="gnb">
+            <ul class="main">
+                <li><a href="collections.html">COLLECTIONS</a>
+                    <ul class="sub">
+                        <li><a href="theme.html">빈티지, 앤틱</a></li>
+                        <li><a href="theme.html">모던, 미니멀</a></li>
+                        <li><a href="theme.html">스칸디나비안, 보타니컬</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">FURNITURE</a>
+                    <ul class="sub">
+                        <li class="category">
+                            <span class="title">LIVING ROOM</span>
+                            <a href="list.html">소파</a>
+                            <a href="list.html">테이블</a>
+                        </li>
+                        <li class="category">
+                            <span class="title">DINING ROOM</span>
+                            <a href="list.html">다이닝 테이블</a>
+                            <a href="list.html">다이닝 체어</a>
+                            <a href="list.html">바 & 카운터 스툴</a>
+                        </li>
+                        <li class="category">
+                            <span class="title">BED ROOM</span>
+                            <a href="list.html">침대</a>
+                            <a href="list.html">매트리스 & 토퍼</a>
+                            <a href="list.html">화장대 & 콘솔</a>
+                            <a href="list.html">서랍장 & 협탁</a>
+                        </li>
+                        <li class="category">
+                            <span class="title">STUDY ROOM</span>
+                            <a href="list.html">책장</a>
+                            <a href="list.html">공부 & 작업용 책상</a>
+                            <a href="list.html">의자</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">RUGS</a>
+                    <ul class="sub">
+                        <li><a href="list.html">러그</a></li>
+                        <li><a href="list.html">러그 패드</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">LIGHTING</a>
+                    <ul class="sub">
+                        <li class="category">
+                            <span class="title">TABLE & FLOOR LAMPS</span>
+                            <a href="list.html">테이블 램프, 무드등</a>
+                            <a href="list.html">스탠드 램프</a>
+                        </li>
+                        <li class="category">
+                            <span class="title">CEILING LIGHTS & FANS</span>
+                            <a href="list.html">샹들리에</a>
+                            <a href="list.html">LED등</a>
+                            <a href="list.html">실링 팬</a>
+                        </li>
+                        <li class="category">
+                            <span class="title">WALL LIGHTING</span>
+                            <a href="list.html">스콘스</a>
+                            <a href="list.html">욕실 조명</a>
+                            <a href="list.html">액자 조명</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">DECOR</a>
+                    <ul class="sub">
+                        <li class="category">
+                            <span class="title">HOME ACCENTS</span>
+                            <a href="list.html">식물 & 화병</a>
+                            <a href="list.html">그림 & 액자</a>
+                            <a href="list.html">거울</a>
+                            <a href="list.html">시계</a>
+                            <a href="list.html">캔들 & 디퓨저</a>
+                            <a href="list.html">문구류</a>
+                            <a href="list.html">토이</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="sale.html">SALE</a></li>
+            </ul>
+        </nav>
+
+        <div id="btn_top">
+            <img src="img/i_top.svg" alt="BACK TO TOP">
+            <p>BACK TO TOP</p>
+        </div>
+        
+        <div class="ac_wrap">
+            <div id="account">
+                <div class="login">
+                    <h3 class="ac_title">Welcome!</h3>
+                    <span class="ac_desc">로그인 후 WAREHAUS의 모든 가구들을 둘러 보세요.</span>
+                    <form action="#" method="post" id="login_frm" name="login_frm">
+                        <p>
+                            <label for="userEmail">EMAIL ADDRESS</label>
+                            <input type="text" id="userEmail" name="userEmail" placeholder="you@example.com">
+                        </p>
+                        <p>
+                            <label for="userPW">PASSWORD</label>
+                            <input type="password" id="userPW" name="userPW" placeholder="Enter here...">
+                        </p>
+                        <p>
+                            <input type="submit" value="LOG IN" class="btn_black">
+                        </p>   
+                    </form>
+                    <span class="forgot toggleBtn">Forgot password?</span>
+                    <p class="tojoin">첫 방문이신가요? <span class="btn_join toggleBtn">Create an account</span></p>
+                    <button class="btn_close">CLOSE</button>
+                </div>
+            
+                <div class="findpw">
+                    <h3 class="ac_title">Forgot Password?</h3>
+                    <span class="ac_desc">회원가입 시 사용한 이메일 주소를 입력하세요.</span>
+                    <form action="#" method="post" id="findpw_frm" name="findpw_frm">
+                        <p>
+                            <label for="findEmail">EMAIL ADDRESS</label>
+                            <input type="text" id="findEmail" name="userEmail" placeholder="you@example.com">
+                        </p>
+                        <p>
+                            <input type="submit" value="임시 비밀번호 전송하기" class="btn_black btn_send">
+                            <button type="button" class="btn_white">LOG IN</button>
+                        </p>
+                    </form>
+                    <button class="btn_close">CLOSE</button>
+                </div>
+
+                <div class="signup">
+                    <h3 class="ac_title">Join Us</h3>
+                    <span class="ac_desc">WAREHAUS의 회원이 되어 보세요. 수많은 가구들이 준비되어 있습니다.</span>
+                    <form action="#" method="post" id="join_frm" name="join_frm">
+                        <p>
+                            <label for="joinEmail">EMAIL ADDRESS</label>
+                            <input type="text" id="joinEmail" name="userEmail" placeholder="you@example.com">
+                        </p>
+                        <p>
+                            <label for="joinPW">PASSWORD</label>
+                            <input type="password" id="joinPW" name="userPW" placeholder="Enter here...">
+                        </p>
+                        <p>
+                            <input type="submit" value="SIGN UP" class="btn_black">
+                        </p>
+                    </form>
+                    <p class="tojoin">이미 회원이신가요? <span class="btn_relogin toggleBtn">Log in</span></p>
+                    <button class="btn_close">CLOSE</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <section>
+        <div class="inner_wrap">
+        <h2>WISH LIST</h2>
+        <div id="list_wrap">
+            <div class="filter">
+                <p class="f_title">Filter</p>
+                <div class="hr"></div>
+                <p class="f_title">카테고리</p>
+                <p class="ch_list">
+                    <input type="checkbox" id="category1" value="가구">
+                    <label for="category1">FURNITURE</label>
+                </p>
+                <p class="ch_list">
+                    <input type="checkbox" id="category2" value="러그">
+                    <label for="category2">RUGS</label>
+                </p>
+                <p class="ch_list">
+                    <input type="checkbox" id="category3" value="조명">
+                    <label for="category3">LIGHTING</label>
+                </p>
+                <p class="ch_list">
+                    <input type="checkbox" id="category4" value="데코">
+                    <label for="category4">DECOR</label>
+                </p>
+            </div>
+
+            <div class="items">
+                <ul class="i_list">
+                    <li>
+                        <a href="detail.html" class="img_box">
+                            <img src="img/img09.png" alt="릴리 화이트 침대">
+                        </a>
+                        <a href="detail.html" class="name">릴리 화이트 침대</a>
+                        <p class="price">483,000</p>
+                        <div class="customer">
+                            <img src="img/i_star.svg" alt="별점"><p>4.2</p>
+                            <img src="img/i_comment.svg" alt="상품평"><p>171</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="detail.html" class="img_box">
+                            <img src="img/img10.png" alt="노르딕 램프">
+                        </a>
+                        <a href="detail.html" class="name">노르딕 램프</a>
+                        <p class="price">53,900</p>
+                        <div class="customer">
+                            <img src="img/i_star.svg" alt="별점"><p>4.3</p>
+                            <img src="img/i_comment.svg" alt="상품평"><p>72</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="detail.html" class="img_box">
+                            <img src="img/img11.png" alt="도자기 수채 꽃병">
+                        </a>
+                        <a href="detail.html" class="name">도자기 수채 꽃병</a>
+                        <p class="price">37,200</p>
+                        <div class="customer">
+                            <img src="img/i_star.svg" alt="별점"><p>4.0</p>
+                            <img src="img/i_comment.svg" alt="상품평"><p>80</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="detail.html" class="img_box">
+                            <img src="img/img12.png" alt="우드 바 스툴">
+                        </a>
+                        <a href="detail.html" class="name">우드 바 스툴</a>
+                        <p class="price">285,000</p>
+                        <div class="customer">
+                            <img src="img/i_star.svg" alt="별점"><p>4.0</p>
+                            <img src="img/i_comment.svg" alt="상품평"><p>130</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="detail.html" class="img_box">
+                            <img src="img/img13.png" alt="실크 파우더 러그">
+                        </a>
+                        <a href="detail.html" class="name">실크 파우더 러그</a>
+                        <p class="price">127,200</p>
+                        <div class="customer">
+                            <img src="img/i_star.svg" alt="별점"><p>4.9</p>
+                            <img src="img/i_comment.svg" alt="상품평"><p>234</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="detail.html" class="img_box">
+                            <img src="img/img14.png" alt="루체른 팬던트">
+                        </a>
+                        <a href="detail.html" class="name">루체른 팬던트</a>
+                        <p class="price">193,300</p>
+                        <div class="customer">
+                            <img src="img/i_star.svg" alt="별점"><p>4.0</p>
+                            <img src="img/i_comment.svg" alt="상품평"><p>103</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="detail.html" class="img_box">
+                            <img src="img/img15.png" alt="솔리드 원목 테이블">
+                        </a>
+                        <a href="detail.html" class="name">솔리드 원목 테이블</a>
+                        <p class="price">249,000</p>
+                        <div class="customer">
+                            <img src="img/i_star.svg" alt="별점"><p>4.7</p>
+                            <img src="img/i_comment.svg" alt="상품평"><p>90</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="detail.html" class="img_box">
+                            <img src="img/img16.png" alt="오슬로 악센트 콘솔 테이블">
+                        </a>
+                        <a href="detail.html" class="name">오슬로 악센트 콘솔 테이블</a>
+                        <p class="price">279,000</p>
+                        <div class="customer">
+                            <img src="img/i_star.svg" alt="별점"><p>4.6</p>
+                            <img src="img/i_comment.svg" alt="상품평"><p>124</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <div class="inner_wrap">
+        <footer>
+            <div class="info">
+                <p>서울시 강서구 화곡동 1234&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;㈜WAREHAUS 대표자 : OOO<br>
+                사업자등록번호 : 123-12-12345&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;통신판매업신고 : 2022-서울-1234<br>
+                개인정보 관리 보호 책임자 : OOO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e-mail : hello@hello.com</p>
+                <p class="copy">Copyright &copy; 2022 WAREHAUS Co., Ltd. All rights reserved</p>
+            </div>
+            <div class="company">
+                <p class="title">company</p>
+                <a href="none.html">About Us</a>
+            </div>
+            <div class="contact">
+                <p class="title">contact us</p>
+                <ul>
+                    <li>1566-1234</li>
+                    <li>평일 9 am - 8 pm</li>
+                    <li>주말 및 공휴일 휴무</li>
+                </ul>
+            </div>
+            <div class="c_service">
+                <p class="title">customer service</p>
+                <ul>
+                    <li><a href="none.html">환불, 교환 정책</a></li>
+                    <li><a href="none.html">주문 상태</a></li>
+                    <li><a href="none.html">FAQs</a></li>
+                    <li><a href="none.html">개인정보 처리방침</a></li>
+                    <li><a href="none.html">서비스 이용약관</a></li>
+                    <li><a href="none.html">운영관리방침</a></li>
+                </ul>
+            </div>
+            <div class="connect">
+                <p class="title">connect with us</p>
+                <ul>
+                    <li><button>Facebook</button></li>
+                    <li><button>Instagram</button></li>
+                    <li><button>Twitter</button></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+  
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/common.js"></script>
+	<script src="js/list.js"></script>
+</body>
+</html>
